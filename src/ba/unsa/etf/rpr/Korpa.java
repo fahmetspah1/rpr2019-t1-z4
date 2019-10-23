@@ -37,8 +37,8 @@ public class Korpa {
     public int dajUkupnuCijenuArtikala () {
         int iznos=0;
         int i=0;
-        while (artikli[i]!=0) {
-            iznos = iznos + artikli[i].getCijena();
+        while (artikli[i]!=null) {
+            iznos = iznos + artikli[i].cijena;
             i = i + 1;
         }
         return iznos;

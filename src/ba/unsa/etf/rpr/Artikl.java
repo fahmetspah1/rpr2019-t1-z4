@@ -6,7 +6,7 @@ public class Artikl {
     public int cijena;
     public Artikl () {}
     public Artikl (String naziv, int cijena, String kod) {
-        Postavi(naziv,kod,cijena);
+        Postavi(naziv,cijena,kod);
     }
     public void Postavi (String naziv, int cijena, String kod) {
         this.naziv=naziv;
@@ -15,14 +15,14 @@ public class Artikl {
     }
 
     public String getNaziv () {
-        return this.naziv;
+        return naziv;
     }
 
     public String getKod () {
-        return this.kod;
+        return kod;
     }
 
     public int getCijena () {
-        return this.cijena;
+        return cijena;
     }
 }
