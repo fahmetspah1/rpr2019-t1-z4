@@ -34,7 +34,7 @@ public class Korpa {
         return artikli;
     }
 
-    public int dajUkupunuCijenuArtikala () {
+    public int dajUkupnuCijenuArtikala () {
         int iznos=0;
         int i=0;
         while (artikli[i]!=0) {

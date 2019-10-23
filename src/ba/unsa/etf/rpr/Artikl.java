@@ -5,10 +5,10 @@ public class Artikl {
     public String kod = new String ();
     public int cijena;
     public Artikl () {}
-    public Artikl (String naziv, String kod, int cijena) {
+    public Artikl (String naziv, int cijena, String kod) {
         Postavi(naziv,kod,cijena);
     }
-    public void Postavi (String naziv, String kod, int cijena) {
+    public void Postavi (String naziv, int cijena, String kod) {
         this.naziv=naziv;
         this.kod=kod;
         this.cijena=cijena;
